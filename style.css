@@ -1,0 +1,59 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(wallpaper.jpg);
+    z-index: 1;
+
+}
+.taskbar{
+    background-color: #21211e;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 2000;
+}
+.startmenu{
+    position: absolute;
+    bottom: -660px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    
+}
+.startmenu img{
+    border-radius: 10px;
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 80%;
+}
+.fileexplorer{
+    color: white;
+}
+.calender{
+    color: white;
+}
+.defender{
+    color: white;
+}
+.onedrive{
+    color: white;
+}
+.powerpoint{
+    color: white;
+}
+.pub{
+    color: white;
+}
+.word{
+    color: white;
+}
